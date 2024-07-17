@@ -12,56 +12,6 @@ import {RouterOutlet} from '@angular/router';
 export class AppComponent implements OnInit {
   title = 'estramipyme';
   el;
-  preguntas = [
-    {
-      "id": 1,
-      "section": "cliente",
-      "question": "¿Qué tan precisa es la información demográfica de sus clientes (edad, género, ubicación, etc.) en su base de datos?",
-      "options": ["Notengo", "Muy poco", "Buena", "excelente"]
-    },
-    {
-      "id": 2,
-      "section": "cliente",
-      "question": "¿Qué tan bien comprende el historial de compras las preferencias y los patrones de gastos de sus clientes?",
-      "options": ["Lo desconozco", "Muy poco", "Bien", "Excelente"]
-    },
-    {
-      "id": 3,
-      "section": "cliente",
-      "question": "¿Qué tan bien identifica las necesidades, deseos y motivaciones de sus diferentes segmentos de clientes?",
-      "options": ["Lo desconozco", "Muy poco", "Bien", "Excelente"]
-    },
-    {
-      "id": 4,
-      "section": "cliente",
-      "question": "¿Qué tan bien conoce los canales de comunicación preferidos de sus clientes (correo electrónico, redes sociales, teléfono, etc.)?",
-      "options": ["No los conozco", "Muy poco", "Bien", "Excelente"]
-    },
-    {
-      "id": 5,
-      "section": "cliente",
-      "question": "¿Qué tan bien mide y comprende la satisfacción de sus clientes con sus productos, servicios y experiencias?",
-      "options": ["No los mido", "Muy poco", "Bien", "Excelente"]
-    },
-    {
-      "id": 6,
-      "section": "cliente",
-      "question": "¿Qué tan bien identifica y retiene a sus clientes más valiosos y leales?",
-      "options": ["No lo aplico", "Muy poco", "Bien", "Excelente"]
-    },
-    {
-      "id": 7,
-      "section": "cliente",
-      "question": "¿Qué tan efectiva es su segmentación de clientes para crear campañas y ofertas personalizadas?",
-      "options": ["No lo aplico", "Muy poco", "Bien", "Excelente"]
-    },
-    {
-      "id": 8,
-      "section": "cliente",
-      "question": "¿Qué tan bien utiliza los datos de sus clientes para obtener información y tomar decisiones estratégicas?",
-      "options": ["No la utilizo", "Muy poco", "Bien", "Excelente"]
-    }
-  ]
 
 
   constructor(el: ElementRef) {
@@ -73,14 +23,55 @@ export class AppComponent implements OnInit {
   ngOnInit() {
     console.log("ngOnInit");
     //const startTest = document.querySelector(".start-test");
+    console.log("elemento nava")
+    const nav = this.el.nativeElement.querySelector(".nav");
+    console.log(nav);
     const startTest = this.el.nativeElement.querySelector(".start-test")
 
     startTest.addEventListener("click", this._handlerStartTest)
-
-    //this._createForm(this.preguntas, 1)
+    //cargar formularios desde json server
     this._fetchData()
 
+    // Hacer el fade in de la barra de navegacón
+    nav.addEventListener("mouseover", this._handleHover.bind(0.5));
+    nav.addEventListener("mouseout", this._handleHover.bind(1));
+    const sectionObserver = new IntersectionObserver(this._revealSection, {
+      root: null,
+      threshold: 0.15,
+    });
   }
+
+  _fadeInNavBar() {
+  }
+
+  _revealSection(entries: any, observer: any) {
+    const [entry] = entries;
+    if (!entry.isIntersecting) return;
+    document
+      .querySelectorAll(".nav__link")
+      .forEach((link) => link.classList.remove("selected-link"));
+    const id = entry.target.id;
+    const element = this.el.nativeElement.querySelector(`.nav__link[href="#${id}"]`);
+    console.log(element)
+
+    this.el.nativeElement.querySelector(`.nav__link[href="#${id}"]`)
+      .classList.add("selected-link");
+    // entry.target.classList.remove('section--hidden');
+    // observer.unobserve(entry.target);
+  };
+
+  _handleHover(e: any) {
+    if (e.target.classList.contains("nav__link")) {
+      const link = e.target;
+      const siblings = link.closest(".nav").querySelectorAll(".nav__link");
+      const logo = link.closest(".nav").querySelector("img");
+
+      siblings.forEach((el: any) => {
+        if (el !== link) el.style.opacity = this;
+      });
+      logo.style.opacity = this;
+    }
+  };
 
   _handlerStartTest(e: any) {
     e.preventDefault();
