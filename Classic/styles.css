@@ -41,7 +41,7 @@ body {
       rgb(0, 0, 93, 0.8),
       rgb(91, 100, 175, 0.8)
     ),
-    url("images/background.webp");
+    url("../assets/images/background.webp");
   height: 95vh;
   background-size: cover;
   background-position: top;
