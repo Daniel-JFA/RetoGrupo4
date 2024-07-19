@@ -208,9 +208,8 @@ fieldset label::before {
   top: 44%;
   left: 2%;
 }
-.nav__link{
-  color:#444
-
+.nav__link {
+  color: #444;
 }
 
 .nav__item {
@@ -236,7 +235,7 @@ fieldset label::before {
 }
 
 .selected-link {
-  color: #4EAAD2;
+  color: #4eaad2;
   /* text-decoration: underline; */
   /* text-decoration-color: #58B0A8; */
   /* font-weight: bold; */
@@ -279,15 +278,15 @@ fieldset label::before {
 .contened .tuProgreso {
   margin: -15px 0;
 }
-.tuProgreso{
+.tuProgreso {
   display: flex;
   /* background-color: red; */
   /* padding: 0;
   height: 100%;
   margin: 0; */
 }
-.bar-remaining{
-  display:block;
+.bar-remaining {
+  display: block;
   /* width: auto%ç; */
   /* width: auto; */
 }
@@ -318,7 +317,7 @@ fieldset label::before {
   /*width: 50%;*/
   height: 6px;
   border-radius: 6px;
-  overflow: hidden;  /*ocultar contenido de los contenedores*/
+  overflow: hidden; /*ocultar contenido de los contenedores*/
 }
 
 .contened .tuProgreso .progreso::before {
@@ -344,7 +343,6 @@ fieldset label::before {
   color:red;
 } */
 
-
 .section-radar {
   display: flex;
   justify-content: center;
@@ -363,19 +361,16 @@ fieldset label::before {
   margin: 0 auto;
 }
 
-/*
-.chartjs-tooltip {
-  opacity: 1;
+.fieldset-error {
+  border: 2px solid red;
+  padding: 20px;
+  position: relative;
+}
+
+.fieldset-error::before {
+  content: "Esto no puede estar vacío";
+  color: red;
   position: absolute;
-  background: rgba(0, 0, 0, 0.7);
-  color: white;
-  border-radius: 3px;
-  -webkit-transition: all 0.1s ease;
-  transition: all 0.1s ease;
-  pointer-events: none;
-  -webkit-transform: translate(-50%, 0);
-  transform: translate(-50%, 0);
-  padding: 6px;
-  font-size: 14px;
-  font-family: "Lato", sans-serif;
-}/*
+  top: -10px;
+  left: 40px;
+}
