@@ -4,7 +4,7 @@
       "id": 1,
       "section": "cliente",
       "question": "¿Qué tan precisa es la información demográfica de sus clientes (edad, género, ubicación, etc.) en su base de datos?",
-      "options": ["Notengo", "Muy poco", "Buena", "excelente"]
+      "options": ["No tengo", "Muy poco", "Buena", "Excelente"]
     },
     {
       "id": 2,
@@ -34,7 +34,7 @@
       "id": 6,
       "section": "cliente",
       "question": "¿Qué tan bien identifica y retiene a sus clientes más valiosos y leales?",
-      "options": ["No lo aplico", "Muy poco", "Bien", "Excelente"]
+      "options": ["No los identifico", "Muy poco", "Bien", "Excelente"]
     },
     {
       "id": 7,
@@ -58,13 +58,13 @@
       "id": 10,
       "section": "cliente",
       "question": "¿Qué tan bien recopila y utiliza la retroalimentación de los clientes para mejorar sus productos, servicios y experiencias?",
-      "options": ["Nunca", "Muy poco", "Bien", "excelente"]
+      "options": ["Nunca", "Muy poco", "Bien", "Excelente"]
     },
     {
       "id": 11,
       "section": "negocio",
       "question": "¿Qué tan positivo es tu flujo de caja cada mes?",
-      "options": ["Muy positivo", "positivo", "Negativo", "Muy negativo"]
+      "options": ["Muy Negativo", "Negativo", "Positivo", "Muyositivo"]
     },
     {
       "id": 12,

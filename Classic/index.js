@@ -415,3 +415,53 @@ const radarChart = new Chart(radarCtx, {
   data: radarData,
   options: radarOptions,
 });
+
+const showResultsButton = document.querySelector(
+  ".section-see-results .btn--show-modal"
+);
+
+if (showResultsButton) {
+  showResultsButton.addEventListener("click", () => {
+    const fieldsetIds = Array.from(
+      document.querySelectorAll(".form-container fieldset")
+    ).map((fieldset) => fieldset.getAttribute("data-question-id"));
+
+    const unansweredFieldsets = fieldsetIds.filter(
+      (id) => !answers.hasOwnProperty(id)
+    );
+
+    document
+      .querySelectorAll(".form-container fieldset")
+      .forEach((fieldset) => {
+        fieldset.classList.remove("fieldset-error");
+      });
+
+    if (unansweredFieldsets.length > 0) {
+      // Selecciona todos los fieldsets no respondidos
+      const unansweredElements = document.querySelectorAll(
+        `.form-container fieldset[data-question-id="${unansweredFieldsets.join(
+          '"], .form-container fieldset[data-question-id="'
+        )}"]`
+      );
+
+      // Añade la clase de error a todos los fieldsets no respondidos
+      unansweredElements.forEach((fieldset) => {
+        fieldset.classList.add("fieldset-error");
+      });
+
+      // Desplaza la vista para que todos los fieldsets sean visibles
+      if (unansweredElements.length > 0) {
+        unansweredElements[0].scrollIntoView({
+          behavior: "smooth",
+          block: "center",
+        });
+      }
+    } else {
+      console.log("Todas las preguntas han sido respondidas.");
+      const radarSection = document.querySelector(".section-radar");
+      if (radarSection) {
+        radarSection.scrollIntoView({ behavior: "smooth", block: "center" });
+      }
+    }
+  });
+}
