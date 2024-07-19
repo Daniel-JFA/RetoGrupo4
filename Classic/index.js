@@ -437,19 +437,16 @@ if (showResultsButton) {
       });
 
     if (unansweredFieldsets.length > 0) {
-      // Selecciona todos los fieldsets no respondidos
       const unansweredElements = document.querySelectorAll(
         `.form-container fieldset[data-question-id="${unansweredFieldsets.join(
           '"], .form-container fieldset[data-question-id="'
         )}"]`
       );
 
-      // Añade la clase de error a todos los fieldsets no respondidos
       unansweredElements.forEach((fieldset) => {
         fieldset.classList.add("fieldset-error");
       });
 
-      // Desplaza la vista para que todos los fieldsets sean visibles
       if (unansweredElements.length > 0) {
         unansweredElements[0].scrollIntoView({
           behavior: "smooth",
