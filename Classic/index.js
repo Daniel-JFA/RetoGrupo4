@@ -415,3 +415,91 @@ const radarChart = new Chart(radarCtx, {
   data: radarData,
   options: radarOptions,
 });
+
+var chart = echarts.init(document.getElementById("circleChart"));
+
+var option = {
+  tooltip: {
+    trigger: "item",
+    formatter: "{b}:({d}%)",
+  },
+  series: [
+    {
+      name: "¿Por qué?",
+      type: "pie",
+      radius: ["50%", "70%"],
+      center: ["50%", "50%"],
+      avoidLabelOverlap: false,
+      itemStyle: {
+        color: "#DAB006",
+      },
+      label: {
+        show: true,
+        position: "inside",
+        formatter: "¿Por qué?",
+        fontSize: 16,
+        color: "#000",
+      },
+      emphasis: {
+        label: {
+          show: true,
+          fontSize: "20",
+          fontWeight: "bold",
+        },
+      },
+      data: [{ value: 1, name: "¿Por qué?" }],
+    },
+    {
+      name: "¿Cómo?",
+      type: "pie",
+      radius: ["30%", "50%"],
+      center: ["50%", "50%"],
+      avoidLabelOverlap: false,
+      itemStyle: {
+        color: "#ECC116",
+      },
+      label: {
+        show: true,
+        position: "inside",
+        formatter: "¿Cómo?",
+        fontSize: 16,
+        color: "#000",
+      },
+      emphasis: {
+        label: {
+          show: true,
+          fontSize: "20",
+          fontWeight: "bold",
+        },
+      },
+      data: [{ value: 1, name: "¿Cómo?" }],
+    },
+    {
+      name: "¿Qué?",
+      type: "pie",
+      radius: ["0%", "30%"],
+      center: ["50%", "50%"],
+      avoidLabelOverlap: false,
+      itemStyle: {
+        color: "#E7E72F",
+      },
+      label: {
+        show: true,
+        position: "inside",
+        formatter: "¿Qué?",
+        fontSize: 16,
+        color: "#000",
+      },
+      emphasis: {
+        label: {
+          show: true,
+          fontSize: "20",
+          fontWeight: "bold",
+        },
+      },
+      data: [{ value: 1, name: "¿Qué?" }],
+    },
+  ],
+};
+
+chart.setOption(option);
