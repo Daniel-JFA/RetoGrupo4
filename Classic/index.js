@@ -415,3 +415,13 @@ const radarChart = new Chart(radarCtx, {
   data: radarData,
   options: radarOptions,
 });
+
+//FUNCIÓN PARA BOORAR DATOS DEL FORMULARIO
+
+  //Se asocia un evento al botón
+  borrarBtn.addEventListener('click', function(){
+    //Limpiar el formulario
+    console.log('reset')
+    reset()
+    window.location.reload();
+  });
