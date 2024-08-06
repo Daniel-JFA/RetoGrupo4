@@ -535,13 +535,12 @@ body.scroll .icono {
   position: fixed; /* Fija el ícono en una posición específica */
   bottom: 50px; /* Posición desde el borde inferior */
   right: 20px; /* Posición desde el borde derecho */
-  background-color: transparent;
+  background-color: #5B64AF;
   display:flexbox;
   float: right;
   font-weight: 500;
-  padding: 1.25rem 1.5rem;
+  padding: 1rem 1.0rem;
   cursor: pointer;
-  transition: all 0.3s;
   font-size: small;
   color: #00005d;
 }
