@@ -1,0 +1,861 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "section": "cliente",
+      "question": "¿Qué tan precisa es la información demográfica de sus clientes (edad, género, ubicación, etc.) en su base de datos?",
+      "options": [
+        "Notengo",
+        "Muy poco",
+        "Buena",
+        "excelente"
+      ]
+    },
+    {
+      "id": "2",
+      "section": "cliente",
+      "question": "¿Qué tan bien comprende el historial de compras las preferencias y los patrones de gastos de sus clientes?",
+      "options": [
+        "Lo desconozco",
+        "Muy poco",
+        "Bien",
+        "Excelente"
+      ]
+    },
+    {
+      "id": "3",
+      "section": "cliente",
+      "question": "¿Qué tan bien identifica las necesidades, deseos y motivaciones de sus diferentes segmentos de clientes?",
+      "options": [
+        "Lo desconozco",
+        "Muy poco",
+        "Bien",
+        "Excelente"
+      ]
+    },
+    {
+      "id": "4",
+      "section": "cliente",
+      "question": "¿Qué tan bien conoce los canales de comunicación preferidos de sus clientes (correo electrónico, redes sociales, teléfono, etc.)?",
+      "options": [
+        "No los conozco",
+        "Muy poco",
+        "Bien",
+        "Excelente"
+      ]
+    },
+    {
+      "id": "5",
+      "section": "cliente",
+      "question": "¿Qué tan bien mide y comprende la satisfacción de sus clientes con sus productos, servicios y experiencias?",
+      "options": [
+        "No los mido",
+        "Muy poco",
+        "Bien",
+        "Excelente"
+      ]
+    },
+    {
+      "id": "6",
+      "section": "cliente",
+      "question": "¿Qué tan bien identifica y retiene a sus clientes más valiosos y leales?",
+      "options": [
+        "No lo aplico",
+        "Muy poco",
+        "Bien",
+        "Excelente"
+      ]
+    },
+    {
+      "id": "7",
+      "section": "cliente",
+      "question": "¿Qué tan efectiva es su segmentación de clientes para crear campañas y ofertas personalizadas?",
+      "options": [
+        "No lo aplico",
+        "Muy poco",
+        "Bien",
+        "Excelente"
+      ]
+    },
+    {
+      "id": "8",
+      "section": "cliente",
+      "question": "¿Qué tan bien utiliza los datos de sus clientes para obtener información y tomar decisiones estratégicas?",
+      "options": [
+        "No la utilizo",
+        "Muy poco",
+        "Bien",
+        "Excelente"
+      ]
+    },
+    {
+      "id": "9",
+      "section": "cliente",
+      "question": "¿Qué tan bien personaliza las experiencias de sus clientes en sus diferentes canales de interacción?",
+      "options": [
+        "No lo aplico",
+        "Muy poco",
+        "Bien",
+        "Excelente"
+      ]
+    },
+    {
+      "id": "10",
+      "section": "cliente",
+      "question": "¿Qué tan bien recopila y utiliza la retroalimentación de los clientes para mejorar sus productos, servicios y experiencias?",
+      "options": [
+        "Nunca",
+        "Muy poco",
+        "Bien",
+        "excelente"
+      ]
+    },
+    {
+      "id": "11",
+      "section": "negocio",
+      "question": "¿Qué tan positivo es tu flujo de caja cada mes?",
+      "options": [
+        "Muy positivo",
+        "positivo",
+        "Negativo",
+        "Muy negativo"
+      ]
+    },
+    {
+      "id": "12",
+      "section": "negocio",
+      "question": "¿Con qué eficacia genera ingresos en el área comercial?",
+      "options": [
+        "100% de ingresos",
+        "75% de ingresos",
+        "50% de ingresos",
+        "25% de ingresos"
+      ]
+    },
+    {
+      "id": "13",
+      "section": "negocio",
+      "question": "¿Cuántas devoluciones por producto o servicio se tuvieron el  mes pasado?",
+      "options": [
+        "Más del 50%",
+        "Más del 25%",
+        "Más del 15%",
+        "Ninguno"
+      ]
+    },
+    {
+      "id": "14",
+      "section": "negocio",
+      "question": "¿Cuál es el porcentaje de participación de mercado que tienen  en el sector?",
+      "options": [
+        "Más del 90%",
+        "Más del 70%",
+        "Más del 40%",
+        "Más del 20%"
+      ]
+    },
+    {
+      "id": "15",
+      "section": "negocio",
+      "question": "¿Cuántas horas se dedica a la formación continua de los empleados el último año?",
+      "options": [
+        "Más de 90",
+        "Entre 70 y 90",
+        "Entre 40 y 70",
+        "Menos de 40"
+      ]
+    },
+    {
+      "id": "16",
+      "section": "negocio",
+      "question": "¿Qué tan familiarizados están los empleados con los productos o servicios que ofrece la empresa?",
+      "options": [
+        "Muy familiarizados",
+        "Bastante familiarizados",
+        "Algo familiarizados",
+        "Poco familiarizados"
+      ]
+    },
+    {
+      "id": "17",
+      "section": "negocio",
+      "question": "¿Tiene identificado el ciclo de vida del producto o servicio?",
+      "options": [
+        "Continuamnete identificado",
+        "Mayormente identificado",
+        "Parcialmente identificado",
+        "No identificado"
+      ]
+    },
+    {
+      "id": "18",
+      "section": "negocio",
+      "question": " ¿Cuántos clientes nuevos se ha adquirido en el último mes?",
+      "options": [
+        "Se han adquirido un número significativo de clientes nuevos",
+        "Se han  adquirido muchos clientes nuevos",
+        "Se han adquirido pocos clientes nuevos",
+        "No se han adquirido nuevos clientes"
+      ]
+    },
+    {
+      "id": "19",
+      "section": "negocio",
+      "question": "¿Cómo se encuentra la relación con tus empleados?",
+      "options": [
+        "Muy buena",
+        "Buena",
+        "Regular",
+        "Se necesita mejoría"
+      ]
+    },
+    {
+      "id": "20",
+      "section": "negocio",
+      "question": "¿En qué nivel se encuentra tu posicionamiento de marca a nivel nacional?",
+      "options": [
+        "Altamente posicionada",
+        "Muy bien posicionada",
+        "Medianamente posicionada"
+      ]
+    },
+    {
+      "id": "21",
+      "section": "coherencia",
+      "question": "Nuestra empresa tiene un propósito claro y bien definido que guía todas nuestras decisiones.",
+      "options": [
+        " Totalmente de acuerdo",
+        "De acuerdo",
+        "En desacuerdo",
+        "Totalmente en descuerdo"
+      ]
+    },
+    {
+      "id": "22",
+      "section": "coherencia",
+      "question": "Todos los empleados comprenden y se identifican con el propósito fundamental de nuestra empresa.",
+      "options": [
+        "Totalmente de acuerdo",
+        "De acuerdo",
+        "En desacuerdo",
+        "Totalmente en desacuerdo"
+      ]
+    },
+    {
+      "id": "23",
+      "section": "coherencia",
+      "question": " El propósito de nuestra empresa se comunica de manera efectiva tanto interna como externamente.",
+      "options": [
+        "Totalmente de acuerdo",
+        "De acuerdo",
+        "En desacuerdo",
+        "Totalmente de acueerdo"
+      ]
+    },
+    {
+      "id": "24",
+      "section": "coherencia",
+      "question": " Tenemos procesos claros y bien establecidos que reflejan nuestro propósito y valores.",
+      "options": [
+        "Totalmente de acuerdo",
+        "De acuerdo",
+        "En desacuerdo",
+        "Totalmente en desacuerdo"
+      ]
+    },
+    {
+      "id": "25",
+      "section": "coherencia",
+      "question": "Nuestro enfoque en los procesos nos permite entregar consistentemente productos y servicios de alta calidad.",
+      "options": [
+        "Totalmente de acuerdo",
+        "De acuerdo",
+        "En desacuerdo",
+        "Totalmente en desacuerdo"
+      ]
+    },
+    {
+      "id": "26",
+      "section": "coherencia",
+      "question": " Los procesos y procedimientos de nuestra empresa están alineados con nuestras metas estratégicas.",
+      "options": [
+        "Totalmente de acuerdo",
+        "De acuerdo",
+        "En desacuerdo",
+        "Totalmente en desacuerdo"
+      ]
+    },
+    {
+      "id": "27",
+      "section": "coherencia",
+      "question": "Los productos y servicios que ofrecemos están alineados con el propósito fundamental de nuestra empresa.",
+      "options": [
+        "Totalmente de acuerdo",
+        "De acuerdo",
+        "En desacuerdo",
+        "Totalmente en desacuerdo"
+      ]
+    },
+    {
+      "id": "28",
+      "section": "coherencia",
+      "question": " Nuestros clientes reconocen y valoran la conexión entre nuestros productos/servicios y nuestro propósito.",
+      "options": [
+        "Totalmente de acuerdo",
+        "De acueeredo",
+        "En desacuerdo",
+        "Totalente en desacuerdo"
+      ]
+    },
+    {
+      "id": "29",
+      "section": "coherencia",
+      "question": "Nuestra empresa está constantemente innovando y mejorando nuestros productos y servicios en línea con nuestro propósito.",
+      "options": [
+        "Totalmente de acuerdo",
+        "De acueeredo",
+        "En desacuerdo",
+        "Totalente en desacuerdo"
+      ]
+    },
+    {
+      "id": "30",
+      "section": "alineacion",
+      "question": " ¿Cómo calificarías la claridad de la estrategia empresarial en tu organización?",
+      "options": [
+        "No hay claridad",
+        "Muy poca",
+        "Muy buena",
+        "Excelente"
+      ]
+    },
+    {
+      "id": "31",
+      "section": "alineacion",
+      "question": "¿Qué tan efectiva consideras que es la comunicación de la estrategia a todos los niveles de la empresa?",
+      "options": [
+        "No hay comunicación",
+        "Muy poca",
+        "Muy buena",
+        "Excelente"
+      ]
+    },
+    {
+      "id": "32",
+      "section": "alineacion",
+      "question": " ¿Qué tan alineados sientes que están los objetivos individuales con los objetivos estratégicos de la empresa?",
+      "options": [
+        "No hay objetivos",
+        "Muy poco",
+        "Medianamente",
+        "Excelente"
+      ]
+    },
+    {
+      "id": "33",
+      "section": "alineacion",
+      "question": " ¿Qué tan frecuentemente se evalúa la comprensión y adopción de la estrategia por parte de los empleados?",
+      "options": [
+        "Nunca",
+        "uy poco",
+        "Frecuentemente",
+        "Excelente"
+      ]
+    },
+    {
+      "id": "34",
+      "section": "alineacion",
+      "question": "  Cómo valorarías el nivel de colaboración y trabajo en equipo par lograr los objetivos estratégicos",
+      "options": [
+        "No existe",
+        "Muy poco",
+        "Muy bueno",
+        "Excelente"
+      ]
+    },
+    {
+      "id": "35",
+      "section": "alineacion",
+      "question": " ¿Qué tan ágil consideras que es la empresa en ajustar la estrategia ante cambios internos y externos?",
+      "options": [
+        "No se implementan",
+        "Muy poco",
+        "Muy bueno",
+        "Excelente"
+      ]
+    },
+    {
+      "id": "36",
+      "section": "alineacion",
+      "question": "  ¿Cuánto crees que se involucra a los empleados en la formulación de la estrategia empresarial?",
+      "options": [
+        "No se involucran",
+        "Muy poco",
+        "Involucrados",
+        "Muy involucrados"
+      ]
+    },
+    {
+      "id": "37",
+      "section": "alineacion",
+      "question": " Cómo evaluarías la efectividad de las herramientas utilizadas para monitorear el progreso hacia los objetivos estratégicos",
+      "options": [
+        "No se evalua",
+        "Muy poco",
+        "Muy bueno",
+        "Excelente"
+      ]
+    },
+    {
+      "id": "38",
+      "section": "alineacion",
+      "question": " Qué tan comprometidos están los líderes y equipos directivos con la alineación interna",
+      "options": [
+        "No hay compromiso",
+        "Muy poco",
+        "Muy bueno",
+        "Excelente"
+      ]
+    },
+    {
+      "id": "39",
+      "section": "alineacion",
+      "question": " Qué tan arraigada sientes que está la cultura organizacional que apoye la ejecución de la estrategia empresarial",
+      "options": [
+        "No existe",
+        "Muy poco",
+        "Muy buena",
+        "Excelente"
+      ]
+    },
+    {
+      "id": "40",
+      "section": "circulo",
+      "question": "¿En qué medida estás de acuerdo con la siguiente afirmación: Nuestra empresa tiene un propósito claro y bien definido",
+      "options": [
+        "totalmente en desacuerdo",
+        "En desacuerdo",
+        "De acuerdo",
+        "Totalmente de acuerdo"
+      ]
+    },
+    {
+      "id": "41",
+      "section": "circulo",
+      "question": "¿Crees que nuestros clientes entienden y valoran el propósito denuestra empresa?",
+      "options": [
+        "totalmente en desacuerdo",
+        "En desacuerdo",
+        "De acuerdo",
+        "Totalmente de acuerdo"
+      ]
+    },
+    {
+      "id": "42",
+      "section": "circulo",
+      "question": "¿Consideras que el propósito de nuestra empresa guía nuestras decisiones estratégicas?",
+      "options": [
+        "totalmente en desacuerdo",
+        "En desacuerdo",
+        "De acuerdo",
+        "Totalmente de acuerdo"
+      ]
+    },
+    {
+      "id": "43",
+      "section": "circulo",
+      "question": "¿En qué medida crees que el propósito de nuestra empresa tiene un impacto positivo en la sociedad?",
+      "options": [
+        "totalmente en desacuerdo",
+        "En desacuerdo",
+        "De acuerdo",
+        "Totalmente de acuerdo"
+      ]
+    },
+    {
+      "id": "44",
+      "section": "circulo",
+      "question": "¿En qué medida estás de acuerdo con la siguiente afirmación: Nuestra empresa implementa procesos efectivos que apoyan nuestro propósito",
+      "options": [
+        "totalmente en desacuerdo",
+        "En desacuerdo",
+        "De acuerdo",
+        "Totalmente de acuerdo"
+      ]
+    },
+    {
+      "id": "45",
+      "section": "circulo",
+      "question": "¿Consideras que los valores de nuestra empresa están reflejados en nuestras operaciones diarias?",
+      "options": [
+        "totalmente en desacuerdo",
+        "En desacuerdo",
+        "De acuerdo",
+        "Totalmente de acuerdo"
+      ]
+    },
+    {
+      "id": "46",
+      "section": "circulo",
+      "question": "¿En qué medida estás de acuerdo con la siguiente afirmación: Nuestra empresa se distingue de la competencia por la calidad desus procesos y procedimientos?",
+      "options": [
+        "totalmente en desacuerdo",
+        "En desacuerdo",
+        "De acuerdo",
+        "Totalmente de acuerdo"
+      ]
+    },
+    {
+      "id": "47",
+      "section": "circulo",
+      "question": "¿Qué tan bien crees que nuestra empresa comunica cómo llevamos cabo nuestro propósito a nuestros clientes?",
+      "options": [
+        "Muy mal",
+        "Mal",
+        "Bien",
+        "Muy bien"
+      ]
+    },
+    {
+      "id": "48",
+      "section": "circulo",
+      "question": "¿Qué tan satisfecho estás con la calidad de los productos o servicios que ofrece nuestra empresa?",
+      "options": [
+        "totalmente en desacuerdo",
+        "En desacuerdo",
+        "De acuerdo",
+        "Totalmente de acuerdo"
+      ]
+    },
+    {
+      "id": "49",
+      "section": "circulo",
+      "question": "¿En qué medida crees que nuestros productos o servicios cumplen con las expectativas de nuestros clientes?",
+      "options": [
+        "totalmente en desacuerdo",
+        "En desacuerdo",
+        "De acuerdo",
+        "Totalmente de acuerdo"
+      ]
+    },
+    {
+      "id": "50",
+      "section": "circulo",
+      "question": "¿Consideras que nuestra empresa se adapta bien a las necesidades cambiantes del mercado con sus productos o servicios?",
+      "options": [
+        "totalmente en desacuerdo",
+        "En desacuerdo",
+        "De acuerdo",
+        "Totalmente de acuerdo"
+      ]
+    },
+    {
+      "id": "51",
+      "section": "circulo",
+      "question": " ¿Qué tan bien crees que nuestra empresa comunica la características y beneficios de sus productos o servicios?",
+      "options": [
+        "totalmente en desacuerdo",
+        "En desacuerdo",
+        "De acuerdo",
+        "Totalmente de acuerdo"
+      ]
+    },
+    {
+      "id": "52",
+      "section": "financiera",
+      "question": "¿Qué porcentaje de los ingresos proviene de las principales líneas de productos o servicios?",
+      "options": [
+        "20%",
+        "40%",
+        "80%",
+        "100%"
+      ]
+    },
+    {
+      "id": "53",
+      "section": "financiera",
+      "question": "¿Cómo ha variado el margen bruto de la empresa en los últimos tres años?",
+      "options": [
+        "Disminuyó más del 10%",
+        "Disminuyó entre 5% y 10% ",
+        "Aumentó entre 5% y 10%",
+        "Aumentó más del 10%"
+      ]
+    },
+    {
+      "id": "54",
+      "section": "financiera",
+      "question": "¿Cuál es la relación deuda-capital de la empresa?",
+      "options": [
+        "Menos del 0.5",
+        "Entre 0.5 y 1.5 ",
+        "Entre 1.5 y 2.0 ",
+        "Más de 2.0"
+      ]
+    },
+    {
+      "id": "55",
+      "section": "financiera",
+      "question": "¿Cuál es la proporción de gastos operativos en relación con los ingresos totales?",
+      "options": [
+        "Menos del 20% ",
+        "Entre 20% y 60%  ",
+        "Entre 60% y 80% ",
+        "Más del 80%"
+      ]
+    },
+    {
+      "id": "56",
+      "section": "financiera",
+      "question": "¿Qué porcentaje de las cuentas por cobrar son incobrables o están en riesgo?",
+      "options": [
+        "Menos del 5%",
+        "Entre 5% y 20% ",
+        "Entre 20% y 30% ",
+        "Más del 30%"
+      ]
+    },
+    {
+      "id": "57",
+      "section": "financiera",
+      "question": "¿Cómo se compara la rentabilidad neta de la empresa con la de sus competidores?",
+      "options": [
+        "Mucho menor",
+        "Menor",
+        "Mayor",
+        "Mucho mayor"
+      ]
+    },
+    {
+      "id": "58",
+      "section": "financiera",
+      "question": "¿Cuál es la capacidad de la empresa para generar flujo de caja operativo positivo?",
+      "options": [
+        "Muy baja ",
+        "Baja",
+        "Alta",
+        "Muy alta"
+      ]
+    },
+    {
+      "id": "59",
+      "section": "financiera",
+      "question": "¿Cuál es el nivel actual de liquidez de la empresa?",
+      "options": [
+        "Muy bajo ",
+        "Bajo",
+        "Alto",
+        "Muy alto"
+      ]
+    },
+    {
+      "id": "60",
+      "section": "financiera",
+      "question": "¿Cuál es la rotación de personal de la empresa?",
+      "options": [
+        "Menos de 1 vez al año ",
+        "Más de 2 veces al año ",
+        "Más de 3 veces al año",
+        "Mas de 5 veces al año"
+      ]
+    },
+    {
+      "id": "61",
+      "section": "financiera",
+      "question": "¿Qué porcentaje de los ingresos proviene de clientes recurrentes?",
+      "options": [
+        "Menos del 20%",
+        "Entre 20% y 60% ",
+        "Entre 60% y 80%",
+        "Más del 80%"
+      ]
+    }
+  ],
+  "sectors": [
+    {
+      "value": "sel",
+      "option": "Selecciona",
+      "id": "f9b6"
+    },
+    {
+      "value": "agricultura",
+      "option": "Agricultura y Alimentación",
+      "id": "0426"
+    },
+    {
+      "value": "aeroespacial",
+      "option": "Aeroespacial",
+      "id": "ea6a"
+    },
+    {
+      "value": "automotriz",
+      "option": "Automotriz",
+      "id": "549b"
+    },
+    {
+      "value": "bienes",
+      "option": "Bienes Raíces",
+      "id": "9e31"
+    },
+    {
+      "value": "banca",
+      "option": "Banca y Finanzas",
+      "id": "c5f5"
+    },
+    {
+      "value": "construcción",
+      "option": "Construcción e Infraestructura",
+      "id": "9063"
+    },
+    {
+      "value": "consultoria",
+      "option": "Consultoría",
+      "id": "6044"
+    },
+    {
+      "value": "deportes",
+      "option": "Deportes y Recreación",
+      "id": "bba3"
+    },
+    {
+      "value": "electronica",
+      "option": "Electrónica y Tecnología de Consumo",
+      "id": "8dd5"
+    },
+    {
+      "value": "energia",
+      "option": "Energía",
+      "id": "a5d0"
+    },
+    {
+      "value": "educacion",
+      "option": "Educación",
+      "id": "d07c"
+    },
+    {
+      "value": "finanzas",
+      "option": "Finanzas y Banca",
+      "id": "6355"
+    },
+    {
+      "value": "naval",
+      "option": "Industria Naval",
+      "id": "b2c7"
+    },
+    {
+      "value": "informatica",
+      "option": "Informática y Software",
+      "id": "4c38"
+    },
+    {
+      "value": "transporte",
+      "option": "Logística y Transporte",
+      "id": "44d6"
+    },
+    {
+      "value": "manufactura",
+      "option": "Manufactura",
+      "id": "0080"
+    },
+    {
+      "value": "ambiente",
+      "option": "Medio Ambiente y Sustentabilidad",
+      "id": "bb7d"
+    },
+    {
+      "value": "medios",
+      "option": "Medios y Entretenimiento",
+      "id": "aef9"
+    },
+    {
+      "value": "moda",
+      "option": "Moda y Textiles",
+      "id": "7525"
+    },
+    {
+      "value": "publicidad",
+      "option": "Publicidad y Marketing",
+      "id": "7ec7"
+    },
+    {
+      "value": "quimicos",
+      "option": "Químicos y Farmacéuticos",
+      "id": "cf40"
+    },
+    {
+      "value": "retail",
+      "option": "Retail y Comercio",
+      "id": "6b31"
+    },
+    {
+      "value": "salud",
+      "option": "Salud",
+      "id": "2c48"
+    },
+    {
+      "value": "seguridad",
+      "option": "Seguridad y Protección",
+      "id": "0932"
+    },
+    {
+      "value": "eventos",
+      "option": "Servicios de Catering y Eventos",
+      "id": "6fbe"
+    },
+    {
+      "value": "diseño",
+      "option": "Servicios de Diseño y Creatividad",
+      "id": "5da6"
+    },
+    {
+      "value": "servicios",
+      "option": "Servicios Públicos",
+      "id": "868e"
+    },
+    {
+      "value": "tecnologia",
+      "option": "Tecnología y Telecomunicaciones",
+      "id": "18dd"
+    },
+    {
+      "value": "turismo",
+      "option": "Turismo y Hospitalidad",
+      "id": "cf98"
+    },
+    {
+      "value": "otro",
+      "option": "Otro",
+      "id": "7260"
+    }
+  ],
+  "users": [
+    {
+      "id": "d428",
+      "name": "leydimadrid",
+      "surname": "Madrid",
+      "personType": "natural",
+      "docType": "CC",
+      "docNumber": 133645,
+      "businessName": "NA",
+      "sector": "aeroespacial",
+      "otroSector": "NA",
+      "email": "leydi.madrid6@gmail.com",
+      "password": "123456",
+      "confirmPassword": "123456"
+    },
+    {
+      "id": "675a",
+      "name": "Juan Esteban ",
+      "surname": "Munoz",
+      "personType": "natural",
+      "docType": "CC",
+      "docNumber": 1234567,
+      "businessName": "sas",
+      "sector": "naval",
+      "otroSector": "",
+      "email": "jeramirez@platzi.com",
+      "password": "1234",
+      "confirmPassword": "1234"
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+
+<div class="modal">
+  <router-outlet />
+</div>
+<header class="header">
+  <div class="login">
+    <ul>
+      <li>
+        <a href="login" class="login">Login</a>
+      </li>
+      <li>
+        <a href="registro" class="login">Registro</a>
+      </li>
+    </ul>
+  </div>
+
+  <nav class="nav" [class.nav-open]="mobileOpen()">
+    <img
+      src="./assets/images/logo_eafit.png"
+      alt="EAFIT logo"
+      class="nav__logo"
+      id="logo"
+    />
+
+    <ul class="nav__links">
+      <li class="nav__item">
+        <a class="nav__link" href="#section--1">Cliente</a>
+      </li>
+      <li class="nav__item">
+        <a class="nav__link" href="#section--2">Negocio</a>
+      </li>
+      <li class="nav__item">
+        <a class="nav__link" href="#section--6">Financiera</a>
+      </li>
+      <li class="nav__item">
+        <a class="nav__link" href="#section--3">Coherencia</a>
+      </li>
+      <li class="nav__item">
+        <a class="nav__link" href="#section--4">Alineación Interna</a>
+      </li>
+      <li class="nav__item">
+        <a class="nav__link" href="#section--5">Circulo dorado</a>
+      </li>
+    </ul>
+    <button class="mobile-menu-btn" (click)="toggleMobileOpen()">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="icon-mov-nav"
+        name="menu-outline"
+        viewBox="0 0 512 512"
+      >
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-miterlimit="10"
+          stroke-width="32"
+          d="M80 160h352M80 256h352M80 352h352"
+        />
+      </svg>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="icon-mov-nav"
+        name="close-outline"
+        viewBox="0 0 512 512"
+      >
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="32"
+          d="M368 368L144 144M368 144L144 368"
+        />
+      </svg>
+    </button>
+
+    <div class="progress-bar">
+      <div class="progress" [style.width.%]="progress()"></div>
+    </div>
+  </nav>
+  <div class="text-box">
+    <h1 class="heading-primary">
+      <span class="heading-primary-main"> Estramipyme </span>
+      <span class="heading-primary-sub"> Planeación estratégica </span>
+    </h1>
+    <button class="start-test" href="#section--1" [class.hidden]="!isLoged()">
+      Comenzar Test
+    </button>
+  </div>
+</header>
+
+<main [class.hidden]="!isLoged()">
+  <section class="section" id="section--1">
+    <div class="section-intro">
+      <h2 class="section-title">Conocimiento del cliente</h2>
+      <p class="section-description">
+        Esta sección está diseñada para evaluar el nivel de conocimiento que
+        tienes acerca de tus clientes. Al responder este test, podrás
+        identificar oportunidades de mejora en la comprensión de las necesidades
+        y comportamientos de tus clientes.
+      </p>
+    </div>
+
+    <div
+      class="form-container"
+      appRenderForm
+      url="http://localhost:3000/questions/?section=cliente"
+    ></div>
+  </section>
+
+  <section class="section section__main" id="section--2">
+    <div class="section-intro">
+      <h2 class="section-title">Conocimiento del Negocio</h2>
+      <p class="section-description">
+        Este formulario evalúa tu capacidad para tomar decisiones informadas en
+        situaciones cotidianas, basadas en tu entendimiento de cómo tu negocio
+        genera ingresos y de su relación con clientes y empleados.
+      </p>
+    </div>
+
+    <div
+      class="form-container"
+      appRenderForm
+      url="http://localhost:3000/questions/?section=negocio"
+    ></div>
+  </section>
+  <section class="section section__main" id="section--6">
+    <div class="section-intro">
+      <h2 class="section-title">Salud Financiera</h2>
+      <p class="section-description">
+        Este cuestionario mide la estabilidad económica de tu negocio, evaluando
+        aspectos como ingresos, gastos y beneficios. Su objetivo es proporcionar
+        una visión clara de la solidez financiera de la empresa para tomar
+        decisiones estratégicas informadas.
+      </p>
+    </div>
+
+    <div
+      class="form-container"
+      appRenderForm
+      url="http://localhost:3000/questions/?section=financiera"
+    ></div>
+  </section>
+
+  <section class="section section__main" id="section--3">
+    <div class="section-intro">
+      <h2 class="section-title">Coherencia del Modelo de Negocio</h2>
+      <p class="section-description">
+        Este cuestionario está dividido en tres fases: propósito, proceso y
+        producto. Su objetivo es evaluar la consistencia y lógica de tu modelo
+        de negocio, asegurando que todos los componentes funcionen de manera
+        coherente y efectiva.
+      </p>
+    </div>
+
+    <div
+      class="form-container"
+      appRenderForm
+      url="http://localhost:3000/questions/?section=coherencia"
+    ></div>
+  </section>
+
+  <section class="section section__main" id="section--4">
+    <div class="section-intro">
+      <h2 class="section-title">Alineación en la Comunicación Interna</h2>
+      <p class="section-description">
+        Evalúa cómo se comunica y coordina la información dentro de tu empresa,
+        asegurando que todos los miembros estén alineados y trabajando hacia los
+        mismos objetivos. Este cuestionario también mide la coherencia y
+        consistencia entre el plan estratégico, la cultura empresarial, los
+        procesos y los proyectos para cumplir con los objetivos
+        organizacionales.
+      </p>
+    </div>
+    <div
+      class="form-container"
+      appRenderForm
+      url="http://localhost:3000/questions/?section=alineacion"
+    ></div>
+  </section>
+  <section class="section section__main" id="section--5">
+    <div class="section-intro">
+      <h2 class="section-title">Circulo Dorado</h2>
+      <p class="section-description">
+        Este cuestionario mide la estabilidad económica de tu negocio, evaluando
+        aspectos como ingresos, gastos y beneficios. Su objetivo es proporcionar
+        una visión clara de la solidez financiera de la empresa para tomar
+        decisiones estratégicas informadas.
+      </p>
+    </div>
+    <div
+      class="form-container"
+      appRenderForm
+      url="http://localhost:3000/questions/?section=circulo"
+    ></div>
+  </section>
+  <section class="section section-undo">
+    <div class="button-container">
+      <button
+        class="btn--borrar-formulario"
+        id="borrarBtn"
+        (click)="resetForm()"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="trashIcon"
+          viewBox="0 0 512 512"
+        >
+          <path
+            d="M112 112l20 320c.95 18.49 14.4 32 32 32h184c17.67 0 30.87-13.51 32-32l20-320"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="32"
+          />
+          <path
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-miterlimit="10"
+            stroke-width="32"
+            d="M80 112h352"
+          />
+          <path
+            d="M192 112V72h0a23.93 23.93 0 0124-24h80a23.93 23.93 0 0124 24h0v40M256 176v224M184 176l8 224M328 176l-8 224"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="32"
+          />
+        </svg>
+        Borrar Respuestas
+      </button>
+    </div>
+  </section>
+
+  <section class="section section-see-results">
+    <div class="section-intro">
+      <h3 class="section__header">
+        ¡Gracias por completar el formulario! <br />
+        Apreciamos tu tiempo y colaboración.
+      </h3>
+    </div>
+    <button class="btn btn--show-modal" (click)="gotoReport()">Ver resultados!</button>
+  </section>
+
+  <div id="report">
+    <app-pdf-generator></app-pdf-generator>
+  </div>
+
+  <!--
+  <app-graphs />
+  <app-graph-circle></app-graph-circle>
+  <app-footer />
+  -->
+</main>
+

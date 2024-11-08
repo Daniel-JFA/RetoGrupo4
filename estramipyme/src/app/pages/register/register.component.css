@@ -1,0 +1,4 @@
+.password-error::before {
+  content: "Las contraseñas no coinciden";
+  color: red;
+}
